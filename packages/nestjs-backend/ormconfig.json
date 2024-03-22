@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "react_app_db_admin",
+  "password": "react_app_db_admin_password",
+  "database": "react_app_db",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
